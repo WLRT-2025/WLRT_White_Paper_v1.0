@@ -4,7 +4,7 @@ White Paper v1.0 \
   Status: Research White Paper  \
 Version: 1.0  \
 License: CC BY 4.0  \
-Date: YYYY-MM-DD
+Date: 2025-12-16
 ## Abstract
 This white paper presents the Wave Liquidity Redistribution Theory (WLRT), a universal market model in which observed price dynamics emerge from wave-like redistribution of liquidity across price space. Financial markets are treated as structured dynamical systems governed by conservation, propagation, and dissipation of liquidity. Price is defined as a secondary observable derived from the state of the liquidity field rather than as a primary driver.
 ## 1. Motivation
