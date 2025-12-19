@@ -10,11 +10,14 @@ WLRT treats price as a secondary observable that emerges from internal liquidity
 
 - WLRT_White_Paper_v1.0.md  \
   Canonical English version of the white paper.
+  
+- WLRT_White_Paper_v1.0.pdf  \
+  Canonical English pdf-version of the white paper.
 
-- WLRT_White_Paper_v1.0_RU.md  \
-  Canonical Russian version of the white paper.
+- WLRT_White_Paper_v1.0_RU.pdf  \
+  Canonical Russian pdf-version of the white paper.
 
-- README.md \
+- README_White_Paper.md \
   This document.
 
 PDF versions may be generated directly from the Markdown sources.
