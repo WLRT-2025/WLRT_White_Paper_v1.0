@@ -1,6 +1,7 @@
 # WLRT — Wave Liquidity Redistribution Theory
 White Paper v1.0 \
   \
+ **Author**: Petr Popov  \
   **Status**: Research White Paper  \
 **Version**: 1.0  \
 **License**: CC BY 4.0  \
