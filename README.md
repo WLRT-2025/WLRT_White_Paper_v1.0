@@ -1,5 +1,6 @@
 # WLRT — Wave Liquidity Redistribution Theory
 
+Author: Petr Popov
 ## Overview
 
 **Wave Liquidity Redistribution Theory (WLRT)** is a theoretical research framework
