@@ -17,7 +17,7 @@ All definitions and formulations herein are consistent with, and derived from, S
 Market Liquidity (WLRT) is defined as the bounded capability of a market system to
 reallocate value across price levels and time horizons with finite execution costs.  \
 Formally, liquidity is treated as a functional:  \
-L = \mathcal{L}(V, D, F, I)  \
+L = L(V, D, F, I)  \
 where:
 - V — available liquid capital,
 - D — distribution of liquidity over price levels,
@@ -28,7 +28,7 @@ Liquidity is local, finite, and dynamic.
 Liquidity Distribution is the spatial-temporal allocation of liquid capital across price and
 market scales.  \
 It is represented by a density function:  \
-\rho_L(p, t, s) \ge 0  \
+rho_L(p, t, s) >= 0  \
 where:
 - p — price level,
 - t — time,
@@ -42,8 +42,8 @@ Properties:
 Liquidity Redistribution is the continuous evolution of liquidity distribution driven by
 participant actions and external factors.  \
 It is described by a conservation-type equation:  \
-\frac{\partial \rho_L}{\partial t} = - \nabla \cdot J_L + S
-where:  \
+d rho_L / dt = div J_L + S  \
+where: 
 - J_L — liquidity flow vector,
 - S — sources and sinks of liquidity.  \
 Price changes occur as a consequence of asymmetric redistribution.
@@ -51,7 +51,7 @@ Price changes occur as a consequence of asymmetric redistribution.
 A Liquidity Wave is a localized, directional change in liquidity density propagating through
 price and time.  \
 Formally:  \
-W_L(p,t) = \Delta \rho_L(p,t)  \
+W_L(p,t) = Delta rho_L(p,t)  \
 Liquidity Waves:
 - have amplitude (magnitude of redistribution),
 - have direction (net flow bias),
@@ -62,13 +62,13 @@ Price is interpreted as the observable projection of interacting Liquidity Waves
 The WLRT framework relies on the following foundational assumptions:  \
 Axiom 1 — Finite Liquidity  \
 Liquidity is always bounded:  \
-0 < L(p,t) < \infty  \
+0 < L(p,t) < infinity  \
 Axiom 2 — Non-Uniformity  \
 Liquidity distribution is never homogeneous:  \
-\rho_L(p,t) \neq \text{const}  \
+rho_L(p,t) != const  \
 Axiom 3 — Continuous Redistribution  \
-Liquidity is continuously redistributed:
-\frac{\partial \rho_L}{\partial t} \neq 0  \
+Liquidity is continuously redistributed:  \
+d rho_L / dt != 0  \
 Axiom 4 — Liquidity Causality  \
 Liquidity redistribution drives price, not vice versa.  \
 Axiom 5 — Multi-Scale Consistency  \
@@ -76,21 +76,21 @@ Structural properties of Liquidity Waves persist across scales.
 ## D. Mathematical Formulation
 ### D.1 Liquidity Flow
 Liquidity flow is defined as:  \
-J_L(p,t,s) = \rho_L(p,t,s) \cdot v(p,t,s)  \
+J_L(p,t,s) = rho_L(p,t,s) * v(p,t,s)  \
 where v is the effective redistribution velocity.
 ### D.2 Evolution Equation
 The fundamental evolution equation:  \
-\frac{\partial \rho_L}{\partial t} + \nabla \cdot (\rho_L v) = S  \
-This equation governs:  \
+d rho_L / dt + div (rho_L * v) = S  \
+This equation governs:  
 - wave formation,
 - wave propagation,
 - wave dissipation.
 ### D.3 Price Projection
 Price is defined as a functional of liquidity distribution:  \
-P(t) = f\big(\rho_L(p,t)\big)  \
+P(t) = f(rho_L(p,t))  \
 No explicit functional form is imposed in v1.0.
 ## E. Model Constraints and Limits
-The WLRT technical model is subject to the following constraints:  \
+The WLRT technical model is subject to the following constraints:  
 1. Observability Limit  \
 Latent liquidity cannot be fully measured.
 2. Resolution Tradeoff  \
@@ -107,7 +107,7 @@ Planned technical extensions beyond v1.0 include:
 - explicit modeling of latent liquidity fields;
 - stochastic source terms S(p,t);
 - cross-market coupled wave systems;
-- algorithmic estimation of \rho_L from partial data;
+- algorithmic estimation of rho_L from partial data;
 - integration with agent-based and AMM-specific dynamics.  \
 These extensions will be addressed in future versions without altering the core axioms.  \
 Status: WLRT — Technical Appendix v1.0  \
