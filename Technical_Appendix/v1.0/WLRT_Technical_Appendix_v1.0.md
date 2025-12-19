@@ -1,4 +1,5 @@
 # WLRT — Technical Appendix v1.0
+Author: Petr Popov
 ## A. Scope and Relation to White Paper
 This Technical Appendix supplements the Wave Liquidity Redistribution Theory (WLRT) —
 White Paper v1.0.
