@@ -4,7 +4,7 @@
 **Author:** Petr Popov  
 **ORCID:** 0009-0001-6666-3558  
 
----## Language and Typography Rules (RU)
+## Language and Typography Rules (RU)
 
 - In all Russian-language WLRT documents, the letter "ё" is never used.
 - The letter "е" is used in all cases instead.
