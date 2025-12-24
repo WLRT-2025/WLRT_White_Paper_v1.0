@@ -3,7 +3,7 @@
 **Last updated:** December 2025  
 **Author:** Petr Popov  
 **ORCID:** 0009-0001-6666-3558  
-
+- WLRT v2.0 scope and boundaries are defined in META/WLRT_v2_SCOPE.md.
 ## Language and Typography Rules (RU)
 
 - In all Russian-language WLRT documents, the letter "ё" is never used.
